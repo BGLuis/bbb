@@ -117,9 +117,10 @@ export default function Hero() {
               {/* Main Image */}
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-card border border-cream-200 bg-cream-100">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/hero.webp"
                   alt="Bolo artesanal de brigadeiro com morangos frescos preparado no ateliê bbb"
                   fill
+                  priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                   className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
                 />

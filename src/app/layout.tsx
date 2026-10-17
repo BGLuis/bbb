@@ -6,6 +6,7 @@ const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-fraunces",
   display: "swap",
+  weight: ["300", "400", "600"],
   style: ["normal", "italic"],
   fallback: ["Georgia", "serif"],
   adjustFontFallback: true,
@@ -15,6 +16,7 @@ const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
   fallback: ["system-ui", "sans-serif"],
   adjustFontFallback: true,
 });
@@ -63,7 +65,7 @@ export const metadata: Metadata = {
     siteName: "bbb. Bons Brigadeiros e Bolos",
     images: [
       {
-        url: "/images/hero.jpg",
+        url: "/images/hero.webp",
         width: 1200,
         height: 630,
         alt: "bbb. Confeitaria artesanal de bolos e brigadeiros em São Paulo",
@@ -75,7 +77,7 @@ export const metadata: Metadata = {
     title: "bbb. | Bons Brigadeiros & Bolos",
     description:
       "Bolos e brigadeiros feitos à mão em São Paulo. Peça pela vitrine e envie pronto pelo WhatsApp.",
-    images: ["/images/hero.jpg"],
+    images: ["/images/hero.webp"],
   },
   robots: {
     index: true,
@@ -99,7 +101,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Bakery",
     name: "bbb. bons brigadeiros & bolos",
-    image: "https://bbb-confeitaria.vercel.app/images/hero.jpg",
+    image: "https://bbb-confeitaria.vercel.app/images/hero.webp",
     description:
       "Ateliê de confeitaria artesanal em São Paulo especializado em bolos e brigadeiros gourmet sob encomenda.",
     address: {

@@ -10,7 +10,7 @@ export default function Sobre() {
           <div className="lg:col-span-5 order-2 lg:order-1 relative">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-card border border-cream-300 bg-cream-100">
               <Image
-                src="/images/about.jpg"
+                src="/images/about.webp"
                 alt="Ana Beatriz Lima preparando bolos artesanais no ateliê bbb"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
