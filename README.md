@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Bons+Brigadeiros+%26+Bolos+%C2%B7+Confeitaria+artesanal+em+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=dark&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /><img alt="bbb. Confeitaria" src="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Bons+Brigadeiros+%26+Bolos+%C2%B7+Confeitaria+artesanal+em+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=light&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Bons+Brigadeiros+%26+Bolos+%C2%B7+Confeitaria+artesanal+em+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=dark&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /><img alt="bbb." src="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Bons+Brigadeiros+%26+Bolos+%C2%B7+Confeitaria+artesanal+em+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=light&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /></picture>
 </p>
 
 <p align="center"><b>Português (BR)</b> · <a href="README.en.md">English</a></p>
@@ -25,7 +25,7 @@ O **bbb. (Bons Brigadeiros & Bolos)** é uma aplicação web moderna, responsiva
 
 # 📋 Motivo
 
-Implementação completa do design de confeitaria artesanal do Figma (*bbb · Confeitaria*), aliando estética visual calorosa inspirada na confeitaria afetiva de família a uma engenharia de ponta que atinge 100% de pontuação em todas as categorias do Google Lighthouse, com imagens otimizadas via `ffmpeg` e zero dependência de JavaScript legado.
+Implementação completa e fiel do design do Figma (bbb · Confeitaria) com foco em experiência do usuário e 100% de performance no Lighthouse
 
 # 🚀 Demonstração & Links
 
@@ -37,16 +37,16 @@ Implementação completa do design de confeitaria artesanal do Figma (*bbb · Co
 # 📸 Demonstração Visual
 
 <p align="center">
-  <img alt="Prévia Desktop da aplicação bbb. Confeitaria" src="public/screenshots/desktop-preview.png" width="850" />
+  <img alt="Prévia Desktop da aplicação bbb." src="public/screenshots/desktop-preview.png" width="850" />
 </p>
 
 <p align="center">
-  <img alt="Prévia Mobile da aplicação bbb. Confeitaria" src="public/screenshots/mobile-preview.png" width="340" />
+  <img alt="Prévia Mobile da aplicação bbb." src="public/screenshots/mobile-preview.png" width="340" />
 </p>
 
 # ⚡ Benchmarks & Performance
 
-Auditoria oficial realizada via **Google Lighthouse** diretamente sobre a URL de produção na Vercel:
+Auditoria oficial realizada via **Google Lighthouse** diretamente sobre o deploy de produção na Vercel:
 
 <p align="center">
   <img alt="Lighthouse Performance" src="https://shieldcn.dev/badge/Performance-100%25-22c55e.svg?variant=branded&size=sm" />
@@ -107,8 +107,8 @@ Auditoria oficial realizada via **Google Lighthouse** diretamente sobre a URL de
 
 ### Requisitos
 
-- [Node.js](https://nodejs.org) (v18+)
-- [npm](https://www.npmjs.com) ou [pnpm](https://pnpm.io)
+- [Node.js](https://nodejs.org)
+- [npm](https://www.npmjs.com)
 
 ### Instalação
 
@@ -124,26 +124,14 @@ Auditoria oficial realizada via **Google Lighthouse** diretamente sobre a URL de
    cd bbb
    ```
 
-3. Instale as dependências:
+3. Instale as dependências e inicie o servidor de desenvolvimento:
 
    ```sh
    npm install
-   ```
-
-4. Inicie o servidor de desenvolvimento:
-
-   ```sh
    npm run dev
    ```
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar a aplicação.
-
-### Compilação de Produção
-
-```sh
-npm run build
-npm run start
-```
 
 # 🤝 Contribuidores
 

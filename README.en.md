@@ -1,8 +1,8 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Artisanal+Bakery+%C2%B7+Handcrafted+cakes+%26+gourmet+brigadeiros+in+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=dark&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /><img alt="bbb. Confeitaria" src="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Artisanal+Bakery+%C2%B7+Handcrafted+cakes+%26+gourmet+brigadeiros+in+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=light&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Artisanal+Bakery+%C2%B7+Handcrafted+cakes+%26+gourmet+brigadeiros+in+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=dark&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /><img alt="bbb." src="https://shieldcn.dev/header/graph.svg?title=bbb.&subtitle=Artisanal+Bakery+%C2%B7+Handcrafted+cakes+%26+gourmet+brigadeiros+in+S%C3%A3o+Paulo&align=left&font=geist-mono&mode=light&logo=https%3A%2F%2Fraw.githubusercontent.com%2FBGLuis%2Fbbb%2Fmain%2Fpublic%2Ffavicon.svg" /></picture>
 </p>
 
-<p align="center"><a href="README.md">Português (BR)</a> · <b>English</b></p>
+<p align="center"><b>English</b> · <a href="README.md">Português (BR)</a></p>
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/stars/BGLuis/bbb.svg?variant=secondary&size=sm&mode=dark" /><img alt="GitHub Stars" src="https://shieldcn.dev/github/stars/BGLuis/bbb.svg?variant=secondary&size=sm&mode=light" /></picture>
@@ -25,7 +25,7 @@
 
 # 📋 Motivation
 
-Complete pixel-perfect implementation of the Figma confectionery design (*bbb · Confeitaria*), merging an affectionate family bakery visual aesthetic with cutting-edge front-end engineering achieving 100% Google Lighthouse scores, media optimization via `ffmpeg`, and zero legacy JavaScript runtime overhead.
+Complete and faithful implementation of the Figma design (bbb · Confeitaria) focused on user experience and 100% Lighthouse performance.
 
 # 🚀 Demo & Links
 
@@ -37,11 +37,11 @@ Complete pixel-perfect implementation of the Figma confectionery design (*bbb ·
 # 📸 Visual Showcase
 
 <p align="center">
-  <img alt="bbb. Confeitaria Desktop Preview" src="public/screenshots/desktop-preview.png" width="850" />
+  <img alt="bbb. Desktop Preview" src="public/screenshots/desktop-preview.png" width="850" />
 </p>
 
 <p align="center">
-  <img alt="bbb. Confeitaria Mobile Preview" src="public/screenshots/mobile-preview.png" width="340" />
+  <img alt="bbb. Mobile Preview" src="public/screenshots/mobile-preview.png" width="340" />
 </p>
 
 # ⚡ Benchmarks & Performance
@@ -105,10 +105,10 @@ Official performance audit conducted with **Google Lighthouse** directly against
 
 # 💻 Getting Started
 
-### Prerequisites
+### Requirements
 
-- [Node.js](https://nodejs.org) (v18+)
-- [npm](https://www.npmjs.com) or [pnpm](https://pnpm.io)
+- [Node.js](https://nodejs.org)
+- [npm](https://www.npmjs.com)
 
 ### Installation
 
@@ -118,32 +118,20 @@ Official performance audit conducted with **Google Lighthouse** directly against
    git clone https://github.com/BGLuis/bbb.git
    ```
 
-2. Navigate to the project directory:
+2. Enter the project directory:
 
    ```sh
    cd bbb
    ```
 
-3. Install dependencies:
+3. Install the dependencies and start:
 
    ```sh
    npm install
-   ```
-
-4. Start the development server:
-
-   ```sh
    npm run dev
    ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
-
-### Production Build
-
-```sh
-npm run build
-npm run start
-```
 
 # 🤝 Contributors
 
@@ -153,4 +141,4 @@ npm run start
 
 # 📄 License
 
-Distributed under the [MIT](LICENSE) License.
+Distributed under the [MIT](LICENSE) license.
